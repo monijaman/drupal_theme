@@ -9,4 +9,5 @@ regions:
   header: 'Header'
   content: 'Content'
   sidebar: 'Sidebar'
+  test: 'Test'
   footer: 'Footer'

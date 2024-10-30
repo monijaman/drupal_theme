@@ -10,6 +10,9 @@
     <header>{{ page.header }}</header>
     <main> ++ page.html.twig {{ page.content }} ++ </main>
     <aside>{{ page.sidebar }}</aside>
+    
+    <test> this is test region {{ page.test }}</test >    {# This will render the footer region #}
+
     <footer>{{ page.footer }}</footer>
     <js-bottom-placeholder token="{{ js_bottom_placeholder }}" />
   </body>
