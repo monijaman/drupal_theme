@@ -1,0 +1,9 @@
+<?php
+
+/**
+ * Implements hook_preprocess_node().
+ */
+function mytheme_preprocess_node(array &$variables) {
+  $node = $variables['node'];
+  $variables['custom_class'] = 'node-' . $node->bundle();
+}

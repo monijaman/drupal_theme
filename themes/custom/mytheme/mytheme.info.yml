@@ -1,0 +1,12 @@
+name: 'My Custom Theme'
+type: theme
+description: 'A custom theme created from scratch.'
+core_version_requirement: ^9 || ^10|| ^11
+base theme: stable9  # Inherits from a minimal Drupal core theme (optional).
+libraries:
+  - mytheme/global-styling
+regions:
+  header: 'Header'
+  content: 'Content'
+  sidebar: 'Sidebar'
+  footer: 'Footer'

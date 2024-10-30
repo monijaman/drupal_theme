@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <head-placeholder token="{{ head_placeholder }}" />
+    <title>{{ head_title }}</title>
+    <css-placeholder token="{{ css_placeholder }}" />
+    <js-placeholder token="{{ js_placeholder }}" />
+  </head>
+  <body class="{{ attributes.class }}">
+    <header>{{ page.header }}</header>
+    <main> ++ page.html.twig {{ page.content }} ++ </main>
+    <aside>{{ page.sidebar }}</aside>
+    <footer>{{ page.footer }}</footer>
+    <js-bottom-placeholder token="{{ js_bottom_placeholder }}" />
+  </body>
+</html>
