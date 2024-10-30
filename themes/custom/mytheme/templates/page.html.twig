@@ -11,7 +11,13 @@
     <main> ++ page.html.twig {{ page.content }} ++ </main>
     <aside>{{ page.sidebar }}</aside>
     
-    <test> this is test region {{ page.test }}</test >    {# This will render the footer region #}
+     <div class="test-region">  {# Changed <test> to <div> for valid HTML #}
+      <h2>Test Region</h2>
+      <p>This is the test region:</p>
+      {{ page.test }}  {# This will render the block(s) placed in the 'test' region #}
+    </div>
+
+    </test >    {# This will render the footer region #}
 
     <footer>{{ page.footer }}</footer>
     <js-bottom-placeholder token="{{ js_bottom_placeholder }}" />
