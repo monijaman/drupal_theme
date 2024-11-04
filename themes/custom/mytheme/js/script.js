@@ -1,4 +1,4 @@
 document.addEventListener('DOMContentLoaded', function () {
-    console.log('Custom theme loaded successfully!');
+    console.log('Custom theme loaded successfully sire!');
   });
   
